@@ -1,4 +1,5 @@
 name: github-actions-saludo
+run-name: ${{ github.actor }} is github action
 
 on:
   push:
