@@ -1,10 +1,9 @@
 name: github-actions-saludo
-run-name: {{ github.actors }} is Guthub actions
+
 on:
   push:
-    branches: ["develop"]
-  pull_request:
-    branches: ["develop"]
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
